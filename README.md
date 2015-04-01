@@ -1,2 +1,2 @@
 # behappy-front
-front end pages in vanilla html and css, with Bootstrap for Be Happy
+front end pages in html and css with Bootstrap added flavor pack for ReThinkHappy
