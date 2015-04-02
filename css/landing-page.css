@@ -8,9 +8,7 @@
  darker blue: #0F79B5;
  med blue: #018DC2;
  button blue: #2BADD7; bright version #3ECDFD
- bright blue #36A9F8
- brightest blue 
-
+ charcoal 1c1c1c #232220 whitesmoke f5f5f5
  */
 
 body,
@@ -28,8 +26,9 @@ h4,
 h5,
 h6 {
     font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 700;
+    font-weight: 500;
 }
+/* NAVBAR */
 
 .nav>li>a {
   position: relative;
@@ -65,7 +64,10 @@ h6 {
 .lead {
     font-size: 18px;
     font-weight: 400;
+    font-style:italic;
 }
+
+/* INTRO HEADER */
 
 .intro-header {
     padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
@@ -90,14 +92,13 @@ h6 {
 }
 
 .intro-divider {
-    width: 400px;
+    width: 380px;
     border-top: 1px solid #f8f8f8;
     border-bottom: 1px solid rgba(0,0,0,0.2);
 }
 
-.intro-message > h3 {
-  /*  text-shadow: 2px 2px 3px rgba(0,0,0,0.6);*/
-    letter-spacing:1.1px;
+.intro-message > h4 {
+    letter-spacing:1.2px;
 }
 
 @media(max-width:767px) {
@@ -124,6 +125,60 @@ h6 {
     }
 }
 
+
+
+/* Supporting */
+
+.supporting {
+    padding: 50px 0 80px;
+    background: #f5f5f5;
+    text-align:center;
+}
+
+.supporting .col {
+  float: left;
+  width: 28%;
+  padding: 14px;
+}
+
+.supporting h2 {
+  color: #232220;
+  font-size: 38px;
+  margin-bottom: 30px;
+  font-weight:700;
+}
+
+.supporting h3 {
+  color: #2BADD7;
+  font-size: 26px;
+  margin-bottom: 20px;
+  font-weight:500;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.supporting p {
+  color: #1c1c1c;
+  margin-bottom: 20px;
+  line-height: 1.4;
+}
+
+.supporting .btn {
+  background-color: #eee;
+  color: #1c1c1c;
+  font-size: 18px;
+  padding: 8px 30px;
+  text-decoration: none;
+  display: inline-block;
+}
+.section-spacer {
+    text-align:center;
+    width: 280px;
+    border-top: 1px solid #f8f8f8;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+}
 .network-name {
     text-transform: uppercase;
     font-size: 14px;
@@ -152,6 +207,11 @@ h6 {
     border-top: 3px solid #e7e7e7;
 }
 
+
+
+
+/* SECTION BANNER */
+
 .banner {
     padding: 40px 0 220px;
     color: #f8f8f8;
@@ -162,8 +222,7 @@ h6 {
 
 .banner h2 {
     margin: 0;
-/*    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
-*/    font-size: 3em;
+    font-size: 44px;
 }
 
 .banner ul {
@@ -171,17 +230,23 @@ h6 {
 }
 
 .btn-default {
-  border: 3px solid #3ECDFD;
-  border-radius:0;
-  color: #3ECDFD;
-  background-color: transparent;
+    padding: 10px 50px;
+    margin: 10px 10px;
+    border: 3px solid #3ECDFD;
+    color: #3ECDFD;
+    background-color: transparent;
+   -webkit-transition: All 0.5s ease;
+    -moz-transition: All 0.5s ease;
+    -o-transition: All 0.5s ease;
+    -ms-transition: All 0.5s ease;
+    transition: All 0.5s ease;
 }
 
 .btn-default.active, .btn-default.focus, .btn-default:active, .btn-default:focus, .btn-default:hover, .open>.dropdown-toggle.btn-default{
     color: #f5f5f5;
     background-color: #3ECDFD;
-    border-radius:0;
 }
+
 .banner-social-buttons {
     float: right;
     margin-top: 0;
@@ -212,6 +277,8 @@ h6 {
     }
 }
 
+/* FOOTER */
+
 footer {
     padding: 50px 0 20px;
     background-color: #f8f8f8;
@@ -220,4 +287,5 @@ footer {
 
 p.copyright {
     margin: 15px 0 0;
+    text-transform: uppercase;
 }
