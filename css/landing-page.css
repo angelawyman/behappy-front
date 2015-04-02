@@ -4,11 +4,22 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
  /*!
- * Palette 
+
+ /* Palette 
  darker blue: #0F79B5;
  med blue: #018DC2;
  button blue: #2BADD7; bright version #3ECDFD
  charcoal 1c1c1c #232220 whitesmoke f5f5f5
+ */
+
+ /* Working Notes: might want to animate transitions on buttons, navbar
+ * might want to animate happy face logo on hover
+ * would like to randomly switch out hero photo
+ * will need to fix scroll tos, and might want to easein transitions
+ need photos for testimonials and for inspiring quotes
+ might want to add bouncey circle pointer before first Get Started button
+ fix signup on nav bar, and ruled lines consistency
+ * might want to add cute illust for take a guess, mark how happy, ch-ch-changes
  */
 
 body,
