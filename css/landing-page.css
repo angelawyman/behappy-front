@@ -9,7 +9,7 @@
  darker blue: #0F79B5;
  med blue: #018DC2;
  button blue: #2BADD7; bright version #3ECDFD
- charcoal 1c1c1c #232220 whitesmoke f5f5f5
+ charcoal 1c1c1c #232220 whitesmoke f5f5f5  bleak blue #3E849D;
  */
 
  /* Working Notes: 
@@ -75,7 +75,6 @@ h6 {
   line-height: 1.428571429;
   border-radius: 4px;
   -webkit-user-select: none;
-
 }
 
 
@@ -133,10 +132,10 @@ h6 {
 }
 
 .lead span {
-    color: #3ECDFD;
+    color: #f5f5f5;
     font-size: 15px;
 }
-
+/*#3ECDFD*/
 .lead-divider {
     width: 380px;
     border-top: 1px solid #3ECDFD;
@@ -152,7 +151,7 @@ h6 {
   margin: 1em 0 3em;
   border: 5px solid #2BADD7;
   color: #f5f5f5;
-  background:#3E849D;
+  background: #2D8BAB; 
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
   border-radius: 10px;
@@ -177,7 +176,7 @@ h6 {
   left: 47px;
   border-width: 13px 13px 0;
   border-style: solid;
-  border-color: #3E849D transparent;
+  border-color: #2D8BAB transparent;
   display: block;
   width: 0;
 }
@@ -214,7 +213,7 @@ h6 {
   left: 107px;
   border-width: 13px 13px 0;
   border-style: solid;
-  border-color: #3E849D transparent;
+  border-color: #2D8BAB transparent;
   display: block;
   width: 0;
 }
@@ -376,7 +375,6 @@ h6 {
 /* SECTION BANNER */
 
 .banner {
-     
     padding: 46px 0 230px;
     color: #f8f8f8;
     background: url(../img/class3.jpg) no-repeat center center;
