@@ -46,6 +46,43 @@ h6 {
 }
 /* NAVBAR */
 
+.landing-hero .top-buttons {
+  position: absolute;
+  top: 60px;
+  right: 0;
+}
+.btn-sheer {
+      margin-right: 10px;
+  padding-left: 25px;
+  padding-right: 25px;
+    border-radius: 4px;
+}
+.btn-no-bg {
+  color: #fff;
+}
+.btn, .habit-reminder label {
+  display: inline-block;
+  margin-bottom: 0;
+  font-weight: normal;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  background-image: none;
+  border: 1px solid transparent;
+  white-space: nowrap;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.428571429;
+  border-radius: 4px;
+  -webkit-user-select: none;
+
+}
+
+
+
+
+
+
 .nav>li>a {
   position: relative;
   display: block;
@@ -70,7 +107,12 @@ h6 {
 .navbar-default .navbar-nav>li>a {
   color: #2BADD7;
 }
-
+.navbar-default .navbar-nav>li>a {
+  color: #fff;
+}
+.btn-nav{
+    color:yellow;
+}
 .topnav {
     font-size: 20px; 
 }
@@ -139,8 +181,43 @@ h6 {
   display: block;
   width: 0;
 }
+.speech.top:before {
+  top: -20px;
+  bottom: auto;
+  left: auto;
+  right: 40px;
+  border-width: 0 20px 20px;
+}
+.speech.top:after {
+  top: -13px;
+  bottom: auto;
+  left: auto;
+  right: 47px;
+  border-width: 0 13px 13px;
+}
 
-
+.speech.middle:before {
+  content: "";
+  position: absolute;
+  bottom: -20px;
+  left: 100px;
+  border-width: 20px 20px 0;
+  border-style: solid;
+  border-color: #2BADD7 transparent;
+  display: block;
+  width: 0;
+}
+.speech.middle:after {
+  content: "";
+  position: absolute;
+  bottom: -13px;
+  left: 107px;
+  border-width: 13px 13px 0;
+  border-style: solid;
+  border-color: #3E849D transparent;
+  display: block;
+  width: 0;
+}
 /* INTRO HEADER */
 
 .intro-header {
@@ -275,7 +352,7 @@ h6 {
     padding: 50px 0;
     border-top: 1px solid #e7e7e7;
     border-bottom: 1px solid #e7e7e7;
-    background: url(../img/bluestmood.jpg) no-repeat center center;
+    background: url(../img/bluekitty.jpg) no-repeat center center;
     z-index:2;
     text-align: center;
 }
